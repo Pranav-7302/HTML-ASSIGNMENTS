@@ -1,0 +1,106 @@
+1. Write a simple program in HTML that displays the heading "HTML defines the content and structure of
+your website” on the web browsers?
+
+Ans 1. 	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+  	  <meta charset="UTF-8">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	  <title>Document</title>
+	</head>
+	<body>
+ 	   <h1>HTML defines the content and structure of your website</h1>
+	</body>
+	</html>
+
+
+
+2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
+
+Ans 2. Comments are used to insert information about code in the HTML code. It is a good practice of coding, so that coder and the reader can get help to understand the code. It is useful to understand steps of the complex code. The comment tag is helpful while the debugging of codes.
+
+It is a simple piece of code that is ignored by web browsers not displayed by the browser.
+It helps the coder and reader to understand the piece of code used for especially in complex source code.
+
+				
+					Types of HTML Comments:
+
+1. Single line comments.
+2. Multi-line comments. 
+3. Using <comment> tag.
+
+				       	Example of Comments:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> This is a example of comments </h1>
+
+   <button style="padding: 5px;"> Login </button>
+   <!-- This button is used for login the website  -->
+   <button style="padding: 5px;"> Signup </button>
+   <!-- This button is used for sign up for the users who are new to this website -->
+</body>
+</html>
+
+
+
+3. Write an HTML program that includes a heading a paragraph of text a horizontal line and a line break. arrange these elements to create a simple webpage layouts?
+
+Ans 3. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+   <h1 style=" color: red;"> This is a webpage layout </h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a tempora veniam, tempore reprehenderit mollitia quae ullam adipisci cumque repudiandae quis deleniti eaque, ipsa totam! Mollitia distinctio reiciendis, libero voluptatibus omnis magnam dolore culpa optio inventore eligendi laborum sint ut nostrum animi. Asperiores, ipsa mollitia optio, veniam alias beatae. temporibus odio rem, vel numquam est doloribus nesciunt nostrum quae nisi doloremque tempore dicta modi officia. Doloremque odit deserunt minima laboriosam molestias? Autem quod iste ea, voluptate aliquid facere blanditiis ratione similique nobis ducimus cupiditate modi possimus reprehenderit sunt laudantium, iusto deserunt corporis odio, voluptatem exercitationem unde nihil eaque doloremque. Necessitatibus.</p>
+
+   <hr>
+
+   <p style="color: yellow;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repudiandae maxime error dignissimos voluptatibus perspiciatis illo nihil nobis, quidem rerum quam pariatur iusto, magnam veniam atque cum molestias reiciendis. Rerum architecto dolorem itaque enim delectus, ullam similique adipisci iusto, omnis optio reprehenderit animi necessitatibus odio commodi illo tenetur consectetur! Harum magni et fuga laborum fugit modi deleniti fugiat quos quo, tempore dolore rem aperiam explicabo, praesentium, laudantium consequatur distinctio quis aliquam neque necessitatibus nesciunt. Et minus nam cum. Commodi, deserunt totam praesentium incidunt quisquam magni odit reprehenderit vitae ratione adipisci sequi inventore repudiandae! Culpa quidem, illum quibusdam velit ut nisi.
+   </p>
+
+   <br>
+
+   <p style="color: darkmagenta;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sint! Necessitatibus doloribus enim consectetur! Quos excepturi veritatis adipisci quia eum libero et saepe vero nulla atque expedita tempore quaerat, possimus animi dicta iusto? Perferendis necessitatibus, ducimus nostrum totam suscipit a dolorem neque exercitationem quaerat distinctio soluta atque vero nisi recusandae.</p>
+  
+</body>
+</html>
+
+
+4. Write a short note on Tag and element with an example?
+
+Ans 4.
+
+HTML Tags: Tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. Whatever written inside <hr> are called tags.
+
+Example:- <b> </b>
+
+HTML elements: Elements enclose the contents in between the tags. They consist of some kind of structure or expression. It generally consists of a start tag, content and an end tag.
+Example: 
+ 
+
+<b>This is the content.</b>
+
+5. What is the DOCTYPE Declaration in HTML"?
+
+Ans 5.
+
+					 Definition and Usage
+
+All HTML documents must start with a <!DOCTYPE> declaration.
+
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+
+In HTML 5, the declaration is simple:
