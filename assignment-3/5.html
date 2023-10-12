@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #signupform {
+        display: block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <!-- Create a signup and signin form with proper validation -->
+
+  <body class="container">
+    <form action="/" method="post" autocomplete="on">
+      <input
+        id="signupform"
+        type="text"
+        name="FirstName"
+        placeholder="Enter First name"
+        required
+        minlength="3"
+      />
+      <input
+        id="signupform"
+        type="text"
+        name="LastName"
+        placeholder="Enter Last name"
+      />
+
+      <input
+        id="signupform"
+        type="email"
+        name="email"
+        placeholder="Enter Your email"
+        required
+      />
+      <input
+        id="signupform"
+        type="password"
+        name="password"
+        placeholder="Enter Password"
+        required
+      />
+      <input
+        id="signupform"
+        type="number"
+        name="age"
+        placeholder="Enter your age"
+        required
+        min="1"
+        max="150"
+      />
+      <input id="signupform" type="submit" />
+    </form>
+  </body>
+</html>
